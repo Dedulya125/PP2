@@ -39,3 +39,6 @@ def myfunc():
 
 myfunc()
 
+#Example 5
+x = 5
+print(type(x))
