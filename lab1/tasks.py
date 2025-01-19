@@ -52,3 +52,27 @@ z = 1j   # complex
 x = str("s1") # x will be 's1'
 y = str(2)    # y will be '2'
 z = str(3.0)  # z will be '3.0'
+
+#Example 8
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+
+b = "Hello, World!"
+print(b[2:5])
+
+a = " Hello, World! "
+print(a.strip())
+
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+
+price = 59
+txt = f"The price is {price} dollars"
+print(txt)
+
+txt = "We are the so-called \"Vikings\" from the north."
