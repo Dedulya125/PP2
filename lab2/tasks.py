@@ -26,3 +26,16 @@ print("A") if a > b else print("B")
 
 if not a > b:
   print("a is NOT greater than b")
+
+#Example 6 While Loops
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+
+#Example 7 For Loops
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
