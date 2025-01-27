@@ -10,7 +10,27 @@ else:
 #Example 2 Operators
   print(10 + 5)
 
-#Example 5 If ... Else
+#Example 3 Lists
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
+
+#Example 4 Tuples
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+
+#Example 5 Sets
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+
+#Example 6 Dictionaries
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+
+#Example 7 If ... Else
 a = 200
 b = 33
 if b > a:
@@ -27,13 +47,13 @@ print("A") if a > b else print("B")
 if not a > b:
   print("a is NOT greater than b")
 
-#Example 6 While Loops
+#Example 8 While Loops
 i = 1
 while i < 6:
   print(i)
   i += 1
 
-#Example 7 For Loops
+#Example 9 For Loops
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
