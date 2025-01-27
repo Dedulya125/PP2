@@ -1,15 +1,15 @@
-#Example 1
+#Example 1 Home
 print("Hello, World!")
 
-#Example 2
+#Example 2 Syntax
 if 5 > 2:
   print("Five is greater than two!")
 
-#Example 3
+#Example 3 Comments
 #print("Hello, World!")
 print("Cheers, Mate!")
 
-#Example 4
+#Example 4 Variables
 x = 5
 y = "John"
 print(type(x))
@@ -39,21 +39,21 @@ def myfunc():
 
 myfunc()
 
-#Example 5
+#Example 5 Data types
 x = 5
 print(type(x))
 
-#Example 6
+#Example 6 Numbers
 x = 1    # int
 y = 2.8  # float
 z = 1j   # complex
 
-#Example 7
+#Example 7 Casting
 x = str("s1") # x will be 's1'
 y = str(2)    # y will be '2'
 z = str(3.0)  # z will be '3.0'
 
-#Example 8
+#Example 8 Strings
 a = """Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
