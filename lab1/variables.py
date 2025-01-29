@@ -1,4 +1,3 @@
-#Example 4 Variables
 x = 5
 y = "John"
 print(type(x))
