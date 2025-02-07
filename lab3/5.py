@@ -12,4 +12,4 @@ perm = permutations(f)
 for i in list(perm):
 	print("", end=", ")
 	for j in i:
-	    print (j, end="")	
+	    print (j, end="")
