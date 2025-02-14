@@ -30,6 +30,9 @@ thisdict = {
 }
 print(thisdict)
 
+del thisdict("brand")
+
+
 #Example 7 If ... Else
 a = 200
 b = 33
