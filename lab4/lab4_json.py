@@ -1,10 +1,9 @@
 import json
 
-json_file = 'jsonExample.json'
+json_file = r"C:\Users\Nurbek\Desktop\pp2\lab4\sample-data.json"
 
-with open(json_file, "r") as openedFile:
-    global jsonDict
-    jsonDict = json.load(openedFile)
+with open(json_file, "r") as file:
+    jsonDict = json.load(file)
 
 print("Interface Status")
 print("=" * 80)
